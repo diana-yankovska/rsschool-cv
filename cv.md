@@ -12,3 +12,10 @@ I am self-disciplined and persistent and I always work for a particular result. 
 
 ### **Skills**
 Learning (!with pleasure) HTML, CSS, Javascript, play with Git, solve Codewars tasks.
+
+### **Code examples**
+```
+function positiveSum(arr) {
+  return arr.reduce((sum, current) => current > 0 ? sum + current : sum, 0);
+}
+```
