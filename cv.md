@@ -19,3 +19,6 @@ function positiveSum(arr) {
   return arr.reduce((sum, current) => current > 0 ? sum + current : sum, 0);
 }
 ```
+
+### **Education**
+2011 - 2016: Minsk State Linguistic University (Faculty of Intercultural Communication), Linguist, Translator (German, English).
