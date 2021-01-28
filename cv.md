@@ -22,3 +22,11 @@ function positiveSum(arr) {
 
 ### **Education**
 2011 - 2016: Minsk State Linguistic University (Faculty of Intercultural Communication), Linguist, Translator (German, English).
+
+### **Work experience** 
+2014 - 2015: School № 12 (Minsk) English teacher. \
+2016 - today: OOO "Viptrans-spedition", sales manager.
+
+### **Foreign languages**
+English B1 \
+German B2
