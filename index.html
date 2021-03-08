@@ -1,44 +1,47 @@
 <!doctype html>
 <html lang="en">
-
   <head>
     <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8">
     <title>CV html</title>
   </head>
-
   <body>
     <div class="cv">
-      <div class="contact-info">
-        <img class="avatar" src="image.jpg">
-        <div>
-          <h1>Dziyana Yankouskaya</h1>
-          <p><span class="contact-detail-title">email</span> dianashpandaruk@mail.ru</p>
-          <p><span class="contact-detail-title">tel</span> +375291203496</p>
-        </div>
-      </div>
-      <h2>Desired Job: Junior Frontend Developer</h2>
-
-      <table class="candidate-description">
-        <tr>
-          <td>About myself</td>
-          <td>
-            I am a creative, self-motivated, eager to learn and self- assured individual who is results oriented,
-            capable of either working alone or within a group setting, as a team leader or a group member. I am
-            self-disciplined and persistent and I always work
-            for a particular result. I am able to organize myself in extreme situations and make a decision.
-          </td>
-        </tr>
-        <tr>
-          <td>Skills</td>
-          <td>
-            Learning (!with pleasure) HTML, CSS, Javascript, playing with Git, solving Codewars tasks.
-          </td>
-        </tr>
-        <tr>
-          <td>Code examples</td>
-          <td>
+      <header class="contact-info">
+        <img class="avatar" src="assets/avatar.png" alt="avatar">
+        <h1>Dziyana Yankouskaya</h1>
+      </header>
+      <main>
+        <article>
+          <h3 class="position-title">Junior Frontend Developer</h3>
+          <section>
+            <h3>Contact details</h3>
+            <ul>
+              <li><span class="contact-detail-title">email</span> dianashpandaruk@mail.ru</li>
+              <li><span class="contact-detail-title">tel</span> +375291203496</li>
+            </ul>
+          </section>
+          <section>
+            <h3>About myself</h3>
+            <div class="myself-description">I am a creative, self-motivated, eager to learn and self- assured individual
+              who is
+              results oriented,
+              capable of either working alone or within a group setting, as a team leader or a group member. I am
+              self-disciplined and persistent and I always work
+              for a particular result. I am able to organize myself in extreme situations and make a decision.
+            </div>
+          </section>
+          <section>
+            <h3>Skills</h3>
+            <ul>
+              <li>Learning (!with pleasure) HTML, CSS, Javascript</li>
+              <li>Playing with Git</li>
+              <li>Solving Codewars tasks</li>
+            </ul>
+          </section>
+          <section>
+            <h3 class="code-examples-titel">Code examples</h3>
             <pre><code>
 function positiveSum(arr) {
     return arr.reduce((sum, current) =>
@@ -47,31 +50,48 @@ function positiveSum(arr) {
       sum,
     0);
 }
-        </code></pre>
-          </td>
-        </tr>
-        <tr>
-          <td>Education</td>
-          <td>
-            2011-2016: Minsk State Linguistic University (Faculty of Intercultural Communication), Linguist, Translator
+            </code></pre>
+          </section>
+          <section>
+            <h3 class="education-title">Education</h3>
+            <span class="life-periods">2011-2016</span>: Minsk State Linguistic University (Faculty of Intercultural
+            Communication), Linguist,
+            Translator
             (German, English).
-          </td>
-        </tr>
-        <tr>
-          <td>Work experience</td>
-          <td>
-            2014-2015: School № 12 (Minsk) English teacher.<br> 2016-today: OOO "Viptrans-spedition", sales manager.
-          </td>
-        </tr>
-        <tr>
-          <td>Foreign languages</td>
-          <td>
-            English B1<br> German B2
-          </td>
-        </tr>
-      </table>
-
+          </section>
+          <section>
+            <h3>Work experience</h3>
+            <ul>
+              <li><span class="life-periods">2014-2015</span>: School № 12 (Minsk) English teacher.</li>
+              <li><span class="life-periods">2016-today</span>: OOO "Viptrans-spedition", sales manager.</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Foreign languages</h3>
+            <ul>
+              <li>English B1</li>
+              <li>German B2</li>
+            </ul>
+          </section>
+        </article>
+      </main>
+      <footer>
+        <ul>
+          <li>
+            <a href="https://github.com/diana-yankovska">
+              <img class="github-logo" src="assets/github-logo.png" alt="github-logo">
+            </a>
+          </li>
+          <li>
+            2021
+          </li>
+          <li>
+            <a href="https://rs.school/js">
+              <img class="rs-school-logo" src="assets/rs-school-logo.svg" alt="rs-school-logo">
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
   </body>
-
 </html>
