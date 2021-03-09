@@ -1,0 +1,49 @@
+.cv {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.avatar {
+  float: right;
+  width: 20%;
+}
+
+ul {
+  padding-left: 17px;
+  list-style-type: square;
+}
+
+.position-title { text-decoration: underline; }
+
+.contact-detail-title { text-decoration: underline; }
+
+.myself-description { text-align: justify; }
+
+pre { margin: 0; }
+
+.code-examples-titel { margin-bottom: 5px; }
+
+.education-title { margin-top: 5px; }
+
+.life-periods { text-decoration: underline; }
+
+footer {
+  margin-top: 40px;
+}
+
+footer ul {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  list-style-type: none;
+}
+
+footer ul li {
+  max-width: 45px;
+  margin-right: 15px;
+}
+
+footer img {
+  width: 100%;
+}
